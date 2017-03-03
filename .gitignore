@@ -10,3 +10,16 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+src/main/resources/application-local.yml
+src/main/webapp/*
+node_modules/
+
+#Eclipse exclude
+.settings/
+.classpath
+.project
+
+#IntelliJ IDEA exclude
+target/
+.idea
+*.iml
